@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitality Digitalization</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Hospitality Digitalization</h1>
+    <div>
+        <label for="groupFile">Group Information CSV:</label>
+        <input type="file" id="groupFile" accept=".csv">
+    </div>
+    <div>
+        <label for="hostelFile">Hostel Information CSV:</label>
+        <input type="file" id="hostelFile" accept=".csv">
+    </div>
+    <button id="allocateButton">Allocate Rooms</button>
+    <div id="result"></div>
+
+    <script src="js/csvParser.js"></script>
+    <script src="js/roomAllocator.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
